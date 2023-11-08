@@ -1,0 +1,16 @@
+Create the Interface:
+internal interface IEmployee
+    Employee GetEmployee(int Id);
+    IEnumerable<Employee> GetAllEmployee();
+    Employee Add(Employee employee);
+    Employee Update(Employee employeeChanges);
+    Employee Delete(int Id);
+Create the class implementing Interface MockEmployee
+With the POCO Class of Employee and from the entry Point perform CRUD operation.
+
+
+ new Employee{ Id=1, Name="Kunal",Department=Dept.MKT , Email = "kunaldhanawade12@gmail.com"},
+ new Employee{ Id=2, Name="omkar",Department=Dept.HR , Email = "omkarsakpal@gmail.com"},
+ new Employee{ Id=3, Name="sanket",Department=Dept.ADV , Email = "sanketmore123@gmail.com"},
+ new Employee{ Id=4, Name="shubham",Department=Dept.MKT , Email = "shubhamsabhu77200@gmail.com"},
+         
